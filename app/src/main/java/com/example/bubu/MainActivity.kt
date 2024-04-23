@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun navigateToMainPage() {
         // Change "MainPageActivity" to the actual activity you want to redirect the user to
-        startActivity(Intent(this, dashboard::class.java))
+        startActivity(Intent(this, choice::class.java))
         finish() // Call finish() to remove this activity from the stack
     }
     companion object {
@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
                     // Sign in success, update UI with the signed-in user's information
                     val user = auth.currentUser
 
-                    startActivity(Intent(this,dashboard::class.java))
+                    startActivity(Intent(this,choice::class.java))
                     // Update your UI here
                 } else {
                     // If sign in fails, display a message to the user.

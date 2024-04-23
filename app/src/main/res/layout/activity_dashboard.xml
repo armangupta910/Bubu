@@ -32,11 +32,23 @@
         android:id="@+id/UID"
         android:layout_marginBottom="20dp"/>
 
-    <TextView
-        android:id="@+id/stepCount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Steps: Not available" />
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"/>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/grap"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+
 
 
 </LinearLayout>
